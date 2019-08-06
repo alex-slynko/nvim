@@ -33,14 +33,8 @@ call mkdir(g:go_bin_path, 'p', 0755)
 
 let g:go_auto_type_info = 0
 let g:go_code_completion_enabled = 0
-
-let g:ale_go_gometalinter_options =
-      \ '--tests ' .
-      \ '--fast ' .
-      \ '--disable=gotype ' .
-      \ '--disable=gotypex ' .
-      \ '--exclude="should have comment" ' .
-      \ '--exclude="error return value not checked \(defer"'
+let g:go_metalinter_command='golangci-lint'
+let g:ale_linters = {'go': ['golangci-lint', 'gofmt']}
 
 let s:projections = {
       \ '*.go': {'type': 'go', 'alternate': '{}_test.go'},

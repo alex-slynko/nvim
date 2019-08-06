@@ -206,7 +206,7 @@ Plug 'tpope/vim-sexp-mappings-for-regular-people', { 'for': 'clojure' }
 " }
 
 " Go {
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " }
 
 " Elixir {
