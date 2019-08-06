@@ -294,6 +294,7 @@ Plug 'wellle/targets.vim'
 " Text objects for foldings
 Plug 'kana/vim-textobj-fold'
 " }
+Plug '42wim/vim-shfmt'
 
 " Load user plugins
 runtime! user/plug.vim
