@@ -4,6 +4,7 @@ let g:go_metalinter_autosave = 0
 let g:go_fmt_command = 'goimports'
 let g:go_fmt_fail_silently = 0
 let g:go_fmt_experimental = 1
+let g:go_echo_command_info = 0
 
 let g:go_highlight_array_whitespace_error = 1
 let g:go_highlight_chan_whitespace_error = 1
@@ -51,6 +52,4 @@ endfunction
 augroup config#go
   autocmd!
   autocmd User ProjectionistDetect call s:ProjectionistDetect()
-  autocmd Filetype go compiler go
-  autocmd BufEnter *.go setlocal foldmethod=syntax shiftwidth=2 tabstop=2 softtabstop=2 noexpandtab
 augroup END
