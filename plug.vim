@@ -36,10 +36,10 @@ Plug 'tpope/vim-commentary'
 
 " Multiple cursors
 " Plug 'terryma/vim-multiple-cursors'
-Plug 'mg979/vim-visual-multi'
+" Plug 'mg979/vim-visual-multi'
 
 " Visual context when bulk editing buffers
-Plug 'pelodelfuego/vim-swoop'
+" Plug 'pelodelfuego/vim-swoop'
 
 " Select regions incrementally
 Plug 'terryma/vim-expand-region'
@@ -48,16 +48,16 @@ Plug 'terryma/vim-expand-region'
 Plug 'tpope/vim-endwise'
 
 " Closes brackets (on <cr>)
-Plug 'rstacruz/vim-closer'
+" Plug 'rstacruz/vim-closer'
 
 " Move parameters around (delimited by a separator such as ,)
-Plug 'machakann/vim-swap'
+" Plug 'machakann/vim-swap'
 
 " Simplifies the transition between multiline and single-line code
-Plug 'AndrewRadev/splitjoin.vim'
+" Plug 'AndrewRadev/splitjoin.vim'
 
 " :Join command
-Plug 'sk1418/Join'
+" Plug 'sk1418/Join'
 
 " quoting/parenthesizing made simple; e.g. ysiw) to wrap word in parens
 Plug 'tpope/vim-surround'
@@ -113,16 +113,16 @@ Plug 'Konfekt/FastFold'
 Plug 'mhinz/vim-sayonara'
 
 " Distraction-free writing in Vim
-Plug 'junegunn/goyo.vim'
+" Plug 'junegunn/goyo.vim'
 
 " All the world's indeed a stage and we are merely players
-Plug 'junegunn/limelight.vim'
+" Plug 'junegunn/limelight.vim'
 
 " interact with tmux
 Plug 'benmills/vimux'
 
 " asynchronous build and test dispatcher
-Plug 'tpope/vim-dispatch'
+" Plug 'tpope/vim-dispatch'
 
 " Wrapper of some vim/neovim's :terminal functions
 Plug 'kassio/neoterm'
@@ -139,7 +139,7 @@ Plug 'ciaranm/securemodelines'
 Plug 'tpope/vim-fugitive'
 
 " Show git diff via Vim sign column.
-Plug 'airblade/vim-gitgutter'
+" Plug 'airblade/vim-gitgutter'
 
 " Github extension for fugitive
 Plug 'tpope/vim-rhubarb'
@@ -186,7 +186,7 @@ Plug 'janko/vim-test'
 " }
 
 " C {
-Plug 'arakashic/chromatica.nvim'
+" Plug 'arakashic/chromatica.nvim'
 " }
 
 " Ruby {
@@ -294,7 +294,7 @@ Plug 'wellle/targets.vim'
 " Text objects for foldings
 Plug 'kana/vim-textobj-fold'
 " }
-Plug '42wim/vim-shfmt'
+" Plug '42wim/vim-shfmt'
 
 " Load user plugins
 runtime! user/plug.vim

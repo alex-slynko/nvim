@@ -3,3 +3,4 @@
 " Plug '~/my-prototype-plugin'
 " ...
 
+Plug 'vmchale/dhall-vim'
